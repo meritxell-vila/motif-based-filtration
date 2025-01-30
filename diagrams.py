@@ -2,7 +2,7 @@ import gudhi as gd
 import networkx as nx
 import numpy as np
 
-from ph.filtrations import ollivier_ricci_curvature, forman_curvature, vietoris_rips, density_triangles, density_squares, density_pentagons, density_sum_cycles, randic_connectivity_index, harmonic_index, repulsion_attraction_rule, edge_betweenness_centrality, random_weights
+from filtrations import ollivier_ricci_curvature, forman_curvature, vietoris_rips, density_triangles, density_squares, density_pentagons, density_sum_cycles, randic_connectivity_index, harmonic_index, repulsion_attraction_rule, edge_betweenness_centrality, random_weights
 from utils import propagate_node_attribute_to_edges, propagate_edge_attribute_to_nodes
 from tqdm import tqdm
 

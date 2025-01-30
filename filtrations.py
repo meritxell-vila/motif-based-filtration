@@ -7,8 +7,8 @@ import networkx as nx
 import numpy as np
 import ot
 
-from ph.distances import generate_shortest_path_distance_matrix
-from ph.chordless_cycle_densities import compute_density_cycles
+from distances import generate_shortest_path_distance_matrix
+from chordless_cycle_densities import compute_density_cycles
 
 def get_filtration_types():
     return [
