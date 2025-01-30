@@ -52,6 +52,8 @@ def get_filtration_annotated_graph_non_vr(
 ) -> nx.Graph:
     graph = graph.copy()  # We don't want to change the original graph
     filtration_values = filtration_fn(graph)
+    print("hola2")
+    print("filtration values:", filtration_values)
     if node_level:
         filtration_values = {v: c for v, c in zip(graph.nodes(), filtration_values)}
         nx.set_node_attributes(graph, filtration_values, "filtration")
@@ -91,6 +93,7 @@ def calculate_persistence_diagram(
         cmplx = filtration_fn(graph)
         diagrams = calculate_persistent_homology_from_rips_complex(cmplx, k=k)
     else:
+        print("hola")
         graph = get_filtration_annotated_graph(graph, filtration_fn, node_level)
         # Now we compute persistence diagrams
         diagrams = calculate_persistent_homology(graph, k=k)
