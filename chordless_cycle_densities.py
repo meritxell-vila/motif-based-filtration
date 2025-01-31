@@ -4,8 +4,7 @@ import networkx as nx
 import tempfile
 import subprocess
 
-res = subprocess.run(f'gfortran -O3 src/ph/edgecyclesmap_print_edge_weight.for -o prog', shell=True)
-# res = subprocess.run(f'gfortran -O3 ../PH_expressivity/src/ph/edgecyclesmap_print_edge_weight.for -o prog', shell=True) # to use in jupyter notebooks
+res = subprocess.run(f'gfortran -O3 edgecyclesmap_print_edge_weight.for -o prog', shell=True)
 
 
 def compute_density_cycles(g: nx.Graph, is_rescale: bool = False) -> nx.Graph:
