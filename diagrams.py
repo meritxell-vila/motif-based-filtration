@@ -52,7 +52,6 @@ def get_filtration_annotated_graph_non_vr(
 ) -> nx.Graph:
     graph = graph.copy()  # We don't want to change the original graph
     filtration_values = filtration_fn(graph)
-    print("hola2")
     print("filtration values:", filtration_values)
     if node_level:
         filtration_values = {v: c for v, c in zip(graph.nodes(), filtration_values)}
