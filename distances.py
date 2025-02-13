@@ -13,6 +13,7 @@ def generate_shortest_path_distance_matrix(G: nx.Graph):
             distance_matrix[node_index[node], node_index[target_node]] = distance
     return distance_matrix
 
+
 def generate_shortest_path_distance_matrix_old(G: nx.Graph):
     shortest_paths = nx.all_pairs_shortest_path_length(G)
     nodes = G.nodes
