@@ -1,0 +1,16 @@
+r,Filtration,Total Persistence,Total Persistence Std,Entropy,Entropy Std
+0.1,Degree,0.967,0.0,1.0,0.0
+0.1,OR,1.0,0.0,1.0,0.0
+0.1,Betweenness,0.967,0.0,1.0,0.0
+0.1,Laplacian,1.0,0.0,0.933,0.0
+0.1,Sum density cycles,1.0,0.0,1.0,0.0
+0.3,Degree,1.0,0.0,1.0,0.0
+0.3,OR,1.0,0.0,1.0,0.0
+0.3,Betweenness,1.0,0.0,0.98,0.016
+0.3,Laplacian,0.97,0.023,1.0,0.0
+0.3,Sum density cycles,1.0,0.0,1.0,0.0
+0.5,Degree,1.0,0.0,0.997,0.01
+0.5,OR,1.0,0.0,1.0,0.0
+0.5,Betweenness,0.977,0.015,0.88,0.016
+0.5,Laplacian,0.967,0.0,1.0,0.0
+0.5,Sum density cycles,1.0,0.0,1.0,0.0

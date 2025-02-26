@@ -1,0 +1,10 @@
+r,Filtration,Total Persistence,Total Persistence Std,Entropy,Entropy Std
+0.1,Gudhi VR implementation,-,-,0.587,0.026
+0.1,Degree,0.725,0.03,0.653,0.024
+0.1,VR,-,-,-,-
+0.1,OR,0.565,0.056,0.557,0.046
+0.1,Betweenness,0.58,0.035,0.457,0.022
+0.1,Laplacian,0.41,0.05,0.508,0.056
+0.1,Sum density cycles,0.62,0.038,0.57,0.038
+0.2,Degree,0.6,0.039,0.55,0.03
+0.2,Sum density cycles,0.645,0.04,0.618,0.023
